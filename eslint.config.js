@@ -15,6 +15,9 @@ export default [
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
       },
+      env: {
+        jest: true, // Add this line to enable Jest environment
+      },
     },
     plugins: {
       'react-hooks': reactHooks,
