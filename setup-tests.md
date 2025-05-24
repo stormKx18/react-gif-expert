@@ -36,10 +36,7 @@ module.exports = require("whatwg-fetch");
 5.- Actualizar los scripts del package.json
 ~~~
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
+    ...
     "test": "jest --watchAll"
   }
 ~~~
