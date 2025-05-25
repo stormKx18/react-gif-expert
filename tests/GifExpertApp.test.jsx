@@ -25,6 +25,7 @@ describe('Tests on <GifExpertApp />', () => {
         fireEvent.submit(form);
 
         expect(screen.getByText(inputValue)).toBeTruthy();
+        expect(screen.getAllByRole('heading',{level:3}).length).toBe(2);
     })
 
     test('Component should not show duplicated categories', () => {
