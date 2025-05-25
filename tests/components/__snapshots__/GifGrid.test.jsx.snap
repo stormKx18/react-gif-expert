@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for <GifGrid /> Component should match snapshot  1`] = `
+<div>
+  <h3>
+    spiderman
+  </h3>
+  <h2>
+    Loading ...
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
